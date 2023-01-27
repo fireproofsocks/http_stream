@@ -8,7 +8,7 @@ defmodule HTTPStream.MixProject do
     [
       app: :http_stream,
       version: @version,
-      elixir: "~> 1.8",
+      elixir: "~> 1.9",
       start_permanent: Mix.env() == :prod,
       elixirc_paths: elixirc_paths(Mix.env()),
       description: description(),
