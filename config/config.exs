@@ -1,4 +1,4 @@
-use Mix.Config
+import Config
 
 config :http_stream, adapter: HTTPStream.Adapter.Mint
 
